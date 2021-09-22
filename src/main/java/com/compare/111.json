@@ -1,0 +1,187 @@
+[
+  [
+    {
+      "distinct": false,
+      "distinctSql": "entity_id",
+      "orderByClause": "entity_id desc",
+      "oredCriteria": [
+        {
+          "allCriteria": [
+            {
+              "betweenValue": false,
+              "condition": "tenant_code =",
+              "listValue": false,
+              "noValue": false,
+              "singleValue": true,
+              "value": "Alibaba"
+            },
+            {
+              "betweenValue": false,
+              "condition": "biz_id =",
+              "listValue": false,
+              "noValue": false,
+              "singleValue": true,
+              "value": 2245000
+            },
+            {
+              "betweenValue": false,
+              "condition": "biz_mode =",
+              "listValue": false,
+              "noValue": false,
+              "singleValue": true,
+              "value": 99
+            },
+            {
+              "betweenValue": false,
+              "condition": "stat_date >=",
+              "listValue": false,
+              "noValue": false,
+              "singleValue": true,
+              "value": "2021-02-01 00:00:00"
+            },
+            {
+              "betweenValue": false,
+              "condition": "stat_date <=",
+              "listValue": false,
+              "noValue": false,
+              "singleValue": true,
+              "value": "2021-08-30 00:00:00"
+            },
+            {
+              "betweenValue": false,
+              "condition": "data_version =",
+              "listValue": false,
+              "noValue": false,
+              "singleValue": true,
+              "value": "M-0"
+            },
+            {
+              "betweenValue": false,
+              "condition": "param24 =",
+              "listValue": false,
+              "noValue": false,
+              "singleValue": true,
+              "value": "3"
+            },
+            {
+              "betweenValue": false,
+              "condition": "entity_type in",
+              "listValue": true,
+              "noValue": false,
+              "singleValue": false,
+              "value": [
+                1
+              ]
+            },
+            {
+              "betweenValue": false,
+              "condition": "((param16 =  'B' ))",
+              "listValue": false,
+              "noValue": true,
+              "singleValue": false
+            },
+            {
+              "betweenValue": false,
+              "condition": "stat_date_dim_type =",
+              "listValue": false,
+              "noValue": false,
+              "singleValue": true,
+              "value": 3
+            }
+          ],
+          "criteria": [
+            {
+              "betweenValue": false,
+              "condition": "tenant_code =",
+              "listValue": false,
+              "noValue": false,
+              "singleValue": true,
+              "value": "Alibaba"
+            },
+            {
+              "betweenValue": false,
+              "condition": "biz_id =",
+              "listValue": false,
+              "noValue": false,
+              "singleValue": true,
+              "value": 2245000
+            },
+            {
+              "betweenValue": false,
+              "condition": "biz_mode =",
+              "listValue": false,
+              "noValue": false,
+              "singleValue": true,
+              "value": 99
+            },
+            {
+              "betweenValue": false,
+              "condition": "stat_date >=",
+              "listValue": false,
+              "noValue": false,
+              "singleValue": true,
+              "value": "2021-02-01 00:00:00"
+            },
+            {
+              "betweenValue": false,
+              "condition": "stat_date <=",
+              "listValue": false,
+              "noValue": false,
+              "singleValue": true,
+              "value": "2021-08-30 00:00:00"
+            },
+            {
+              "betweenValue": false,
+              "condition": "data_version =",
+              "listValue": false,
+              "noValue": false,
+              "singleValue": true,
+              "value": "M-0"
+            },
+            {
+              "betweenValue": false,
+              "condition": "param24 =",
+              "listValue": false,
+              "noValue": false,
+              "singleValue": true,
+              "value": "3"
+            },
+            {
+              "betweenValue": false,
+              "condition": "entity_type in",
+              "listValue": true,
+              "noValue": false,
+              "singleValue": false,
+              "value": [
+                1
+              ]
+            },
+            {
+              "betweenValue": false,
+              "condition": "((param16 =  'B' ))",
+              "listValue": false,
+              "noValue": true,
+              "singleValue": false
+            },
+            {
+              "betweenValue": false,
+              "condition": "stat_date_dim_type =",
+              "listValue": false,
+              "noValue": false,
+              "singleValue": true,
+              "value": 3
+            }
+          ],
+          "valid": true
+        }
+      ],
+      "page": true,
+      "pageIndex": 0,
+      "pageSize": 500,
+      "pageStart": 1,
+      "sumClause": "sum(split_qty) as split_qty, sum(real_qty) as real_qty, sum(forecast_qty) as forecast_qty, sum(plan_qty) as plan_qty, sum(last_year_sales) as last_year_sales"
+    }
+  ],
+  65,
+  null
+]
