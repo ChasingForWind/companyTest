@@ -3,8 +3,10 @@ package com.date;
 import com.ascp.salesplan.common.component.util.DateUtil;
 
 import java.text.SimpleDateFormat;
+import java.time.DayOfWeek;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.List;
 
 public class Date01 {
     public static void main(String[] args) {
@@ -33,6 +35,14 @@ public class Date01 {
         Date lastWeekMonday = DateUtil.getWeekAfterCertainDate(currentMonday2, 13);
         System.out.println(sdf.format(firstWeekMonday));
         System.out.println(sdf.format(lastWeekMonday));
+
+        Date dayAfterCertainWeekdayIndex = DateUtil.getDayAfterCertainWeekdayIndex(new Date(), DayOfWeek.MONDAY, 0L);
+        System.out.println(dayAfterCertainWeekdayIndex);
+
+        List<Date> dateList = DateUtil.listWeekPeriodDate(new Date(), DateUtil.getLastDayOfMonth(new Date()), 1);
+        for (int i = 0; i < dateList.size(); i++) {
+            System.out.println(dateList.get(i));
+        }
 
 
     }

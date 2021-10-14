@@ -1,8 +1,7 @@
-package com.salesplan.business.server.platform.domain.dict;
+package com.date;
+
 
 import java.util.Objects;
-
-import jodd.util.StringUtil;
 
 /**
  * 时间维度类型
@@ -84,15 +83,5 @@ public enum TimeDimTypeEnum {
         return null;
     }
 
-    public static TimeDimTypeEnum getByAbbr(String abbr) {
-        if (Objects.isNull(abbr)) {
-            return null;
-        }
-        for (TimeDimTypeEnum dimTypeEnum : TimeDimTypeEnum.values()) {
-            if (StringUtil.equals(dimTypeEnum.getAbbr(), abbr)) {
-                return dimTypeEnum;
-            }
-        }
-        return null;
-    }
+
 }
