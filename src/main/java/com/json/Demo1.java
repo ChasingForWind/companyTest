@@ -14,7 +14,7 @@ import java.io.IOException;
 
 public class Demo1 {
     public static void main(String[] args) throws IOException {
-        String text = IOUtils.getResourceAsString("./user.json", Demo1.class);
+        String text = IOUtils.getResourceAsString("user.json", Demo1.class);
         User user = JSON.parseObject(text, User.class);
         System.out.println(user);
     }

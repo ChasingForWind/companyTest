@@ -1,0 +1,2231 @@
+
+{
+  "data": {
+    "customArea": [
+      {
+        "type": "notify",
+        "value": "??????????????????????????????????????????????????????????????????"
+      }
+    ],
+    "dataSource": [
+      {
+        "date_-3": [
+          {
+            "style": {
+              "textAlign": "right"
+            },
+            "type": "value",
+            "value": "510.23"
+          }
+        ],
+        "date_2": [
+          {
+            "style": {
+              "textAlign": "right"
+            },
+            "type": "value",
+            "value": "1,123.91"
+          }
+        ],
+        "salesIndicator": [
+          {
+            "help": "",
+            "style": {
+              "textAlign": "left"
+            },
+            "type": "value",
+            "unit": "??????",
+            "value": "??????"
+          }
+        ],
+        "date_1": [
+          {
+            "style": {
+              "textAlign": "right"
+            },
+            "type": "value",
+            "value": "300.11"
+          }
+        ],
+        "date_-2": [
+          {
+            "style": {
+              "textAlign": "right"
+            },
+            "type": "value",
+            "value": "510.23"
+          }
+        ],
+        "date_4": [
+          {
+            "style": {
+              "textAlign": "right"
+            },
+            "type": "value",
+            "value": "625.79"
+          }
+        ],
+        "date_-1": [
+          {
+            "style": {
+              "textAlign": "right"
+            },
+            "type": "value",
+            "value": "510.23"
+          }
+        ],
+        "date_3": [
+          {
+            "style": {
+              "textAlign": "right"
+            },
+            "type": "value",
+            "value": "1,394.87"
+          }
+        ],
+        "date_6": [
+          {
+            "style": {
+              "textAlign": "right"
+            },
+            "type": "value",
+            "value": "747.17"
+          }
+        ],
+        "date_13": [
+          {
+            "style": {
+              "textAlign": "right"
+            },
+            "type": "value"
+          }
+        ],
+        "date_5": [
+          {
+            "style": {
+              "textAlign": "right"
+            },
+            "type": "value",
+            "value": "792.40"
+          }
+        ],
+        "date_12": [
+          {
+            "style": {
+              "textAlign": "right"
+            },
+            "type": "value"
+          }
+        ],
+        "date_8": [
+          {
+            "style": {
+              "textAlign": "right"
+            },
+            "type": "value"
+          }
+        ],
+        "date_11": [
+          {
+            "style": {
+              "textAlign": "right"
+            },
+            "type": "value"
+          }
+        ],
+        "date_7": [
+          {
+            "style": {
+              "textAlign": "right"
+            },
+            "type": "value",
+            "value": "73.42"
+          }
+        ],
+        "date_10": [
+          {
+            "style": {
+              "textAlign": "right"
+            },
+            "type": "value"
+          }
+        ],
+        "date_9": [
+          {
+            "style": {
+              "textAlign": "right"
+            },
+            "type": "value"
+          }
+        ],
+        "rowCount": 10,
+        "commodityInfo": [
+          {
+            "label": "????????????",
+            "type": "keyValue",
+            "value": "SDHCB9E88-210"
+          },
+          {
+            "label": "?????? ID",
+            "type": "keyValue",
+            "value": "612234088218"
+          },
+          {
+            "label": "69???ID",
+            "type": "keyValue",
+            "value": "6950610209642"
+          },
+          {
+            "action": {
+              "query": {
+                "defaultParams": {
+                  "entityType": 1,
+                  "entityId": "612234088218",
+                  "scItemId": "612234088218"
+                },
+                "url": "https://api.dchain.tech/planbiz-sales-web/webapi/salesplan/daily/collaborating/scitem/getRelationSkuInfoList"
+              },
+              "type": "dynamicBalloon"
+            },
+            "label": "??????SKU ID",
+            "type": "keyValue",
+            "value": "3185276713324(28)"
+          },
+          {
+            "label": "??????",
+            "type": "keyValue",
+            "value": "??????-??????"
+          },
+          {
+            "label": "????????????",
+            "type": "keyValue",
+            "value": "?????????->????????????->?????????"
+          },
+          {
+            "label": "??????",
+            "type": "keyValue",
+            "value": "?????????"
+          },
+          {
+            "label": "??????????????????",
+            "type": "keyValue",
+            "value": "?????????"
+          },
+          {
+            "type": "tag",
+            "value": [
+              {
+                "background": "#FFD4B1",
+                "color": "#FF902A",
+                "label": "??????"
+              }
+            ]
+          }
+        ],
+        "date_-4": [
+          {
+            "style": {
+              "textAlign": "right"
+            },
+            "type": "value",
+            "value": "510.23"
+          }
+        ],
+        "level": 0,
+        "scItemId": "612234088218",
+        "date_0": [
+          {
+            "style": {
+              "textAlign": "right"
+            },
+            "type": "value",
+            "value": "510.23"
+          }
+        ],
+        "operate": [
+          {
+            "action": {
+              "query": {
+                "paramKeys": [
+                  "scItemId"
+                ],
+                "url": "plan_demand_management_sku"
+              },
+              "type": "a"
+            },
+            "type": "operate",
+            "value": "??????SKU????????????"
+          },
+          {
+            "action": {
+              "query": {
+                "paramKeys": [
+                  "primaryKey",
+                  "regionCode",
+                  "channelCode",
+                  "areaCode",
+                  "areaName",
+                  "areaDimType"
+                ]
+              },
+              "type": "skuPlanAdjust"
+            },
+            "type": "operate",
+            "value": "?????????????????????"
+          },
+          {
+            "action": {
+              "query": {
+                "paramKeys": [
+                  "primaryKey"
+                ],
+                "url": "https://api.dchain.tech/planbiz-sales-web/webapi/salesplan/common/oplog/getLogList"
+              },
+              "type": "dynamicDialog"
+            },
+            "type": "operate",
+            "value": "????????????"
+          }
+        ],
+        "open": false,
+        "primaryKey": "612234088218-1-china-5",
+        "areaDimType": 5
+      },
+      {
+        "level": 0,
+        "date_0": [
+          {
+            "action": {
+              "query": {
+                "defaultParams": {
+                  "areaCode": "china",
+                  "entityType": 1,
+                  "pageViewTimeDimType": 2,
+                  "entityId": "612234088218",
+                  "startDate": "2021-10-18 00:00:00",
+                  "channelCode": "ali_tmall_plat"
+                },
+                "url": "https://api.dchain.tech/planbiz-sales-web/webapi/salesplan/daily/collaborating/scitem/getCountryDayInfo"
+              },
+              "type": "dynamicBalloon"
+            },
+            "shadow": true,
+            "style": {},
+            "type": "value",
+            "value": "510.23"
+          }
+        ],
+        "date_-3": [
+          {
+            "action": {
+              "query": {
+                "defaultParams": {
+                  "areaCode": "china",
+                  "entityType": 1,
+                  "pageViewTimeDimType": 2,
+                  "entityId": "612234088218",
+                  "startDate": "2021-09-27 00:00:00",
+                  "channelCode": "ali_tmall_plat"
+                },
+                "url": "https://api.dchain.tech/planbiz-sales-web/webapi/salesplan/daily/collaborating/scitem/getCountryDayInfo"
+              },
+              "type": "dynamicBalloon"
+            },
+            "shadow": true,
+            "style": {},
+            "type": "value",
+            "value": "176.75"
+          }
+        ],
+        "date_2": [
+          {
+            "action": {
+              "query": {
+                "defaultParams": {
+                  "areaCode": "china",
+                  "entityType": 1,
+                  "pageViewTimeDimType": 2,
+                  "entityId": "612234088218",
+                  "startDate": "2021-11-01 00:00:00",
+                  "channelCode": "ali_tmall_plat"
+                },
+                "url": "https://api.dchain.tech/planbiz-sales-web/webapi/salesplan/daily/collaborating/scitem/getCountryDayInfo"
+              },
+              "type": "dynamicBalloon"
+            },
+            "shadow": true,
+            "style": {},
+            "type": "value",
+            "value": "1,123.91"
+          }
+        ],
+        "salesIndicator": [
+          {
+            "help": "???????????????????????????",
+            "shadow": true,
+            "style": {
+              "textAlign": "left"
+            },
+            "type": "value",
+            "unit": "??????",
+            "value": "??????(??????)"
+          }
+        ],
+        "date_1": [
+          {
+            "action": {
+              "query": {
+                "defaultParams": {
+                  "areaCode": "china",
+                  "entityType": 1,
+                  "pageViewTimeDimType": 2,
+                  "entityId": "612234088218",
+                  "startDate": "2021-10-25 00:00:00",
+                  "channelCode": "ali_tmall_plat"
+                },
+                "url": "https://api.dchain.tech/planbiz-sales-web/webapi/salesplan/daily/collaborating/scitem/getCountryDayInfo"
+              },
+              "type": "dynamicBalloon"
+            },
+            "shadow": true,
+            "style": {},
+            "type": "value",
+            "value": "300.11"
+          }
+        ],
+        "date_-2": [
+          {
+            "action": {
+              "query": {
+                "defaultParams": {
+                  "areaCode": "china",
+                  "entityType": 1,
+                  "pageViewTimeDimType": 2,
+                  "entityId": "612234088218",
+                  "startDate": "2021-10-04 00:00:00",
+                  "channelCode": "ali_tmall_plat"
+                },
+                "url": "https://api.dchain.tech/planbiz-sales-web/webapi/salesplan/daily/collaborating/scitem/getCountryDayInfo"
+              },
+              "type": "dynamicBalloon"
+            },
+            "shadow": true,
+            "style": {},
+            "type": "value",
+            "value": "510.23"
+          }
+        ],
+        "date_4": [
+          {
+            "action": {
+              "query": {
+                "defaultParams": {
+                  "areaCode": "china",
+                  "entityType": 1,
+                  "pageViewTimeDimType": 2,
+                  "entityId": "612234088218",
+                  "startDate": "2021-11-15 00:00:00",
+                  "channelCode": "ali_tmall_plat"
+                },
+                "url": "https://api.dchain.tech/planbiz-sales-web/webapi/salesplan/daily/collaborating/scitem/getCountryDayInfo"
+              },
+              "type": "dynamicBalloon"
+            },
+            "shadow": true,
+            "style": {},
+            "type": "value",
+            "value": "625.79"
+          }
+        ],
+        "date_-1": [
+          {
+            "action": {
+              "query": {
+                "defaultParams": {
+                  "areaCode": "china",
+                  "entityType": 1,
+                  "pageViewTimeDimType": 2,
+                  "entityId": "612234088218",
+                  "startDate": "2021-10-11 00:00:00",
+                  "channelCode": "ali_tmall_plat"
+                },
+                "url": "https://api.dchain.tech/planbiz-sales-web/webapi/salesplan/daily/collaborating/scitem/getCountryDayInfo"
+              },
+              "type": "dynamicBalloon"
+            },
+            "shadow": true,
+            "style": {},
+            "type": "value",
+            "value": "510.23"
+          }
+        ],
+        "date_3": [
+          {
+            "action": {
+              "query": {
+                "defaultParams": {
+                  "areaCode": "china",
+                  "entityType": 1,
+                  "pageViewTimeDimType": 2,
+                  "entityId": "612234088218",
+                  "startDate": "2021-11-08 00:00:00",
+                  "channelCode": "ali_tmall_plat"
+                },
+                "url": "https://api.dchain.tech/planbiz-sales-web/webapi/salesplan/daily/collaborating/scitem/getCountryDayInfo"
+              },
+              "type": "dynamicBalloon"
+            },
+            "shadow": true,
+            "style": {},
+            "type": "value",
+            "value": "1,394.87"
+          }
+        ],
+        "date_6": [
+          {
+            "action": {
+              "query": {
+                "defaultParams": {
+                  "areaCode": "china",
+                  "entityType": 1,
+                  "pageViewTimeDimType": 2,
+                  "entityId": "612234088218",
+                  "startDate": "2021-11-29 00:00:00",
+                  "channelCode": "ali_tmall_plat"
+                },
+                "url": "https://api.dchain.tech/planbiz-sales-web/webapi/salesplan/daily/collaborating/scitem/getCountryDayInfo"
+              },
+              "type": "dynamicBalloon"
+            },
+            "shadow": true,
+            "style": {},
+            "type": "value",
+            "value": "747.17"
+          }
+        ],
+        "date_13": [
+          {
+            "shadow": true,
+            "style": {},
+            "type": "value"
+          }
+        ],
+        "date_5": [
+          {
+            "action": {
+              "query": {
+                "defaultParams": {
+                  "areaCode": "china",
+                  "entityType": 1,
+                  "pageViewTimeDimType": 2,
+                  "entityId": "612234088218",
+                  "startDate": "2021-11-22 00:00:00",
+                  "channelCode": "ali_tmall_plat"
+                },
+                "url": "https://api.dchain.tech/planbiz-sales-web/webapi/salesplan/daily/collaborating/scitem/getCountryDayInfo"
+              },
+              "type": "dynamicBalloon"
+            },
+            "shadow": true,
+            "style": {},
+            "type": "value",
+            "value": "792.40"
+          }
+        ],
+        "date_12": [
+          {
+            "shadow": true,
+            "style": {},
+            "type": "value"
+          }
+        ],
+        "date_8": [
+          {
+            "shadow": true,
+            "style": {},
+            "type": "value"
+          }
+        ],
+        "date_11": [
+          {
+            "shadow": true,
+            "style": {},
+            "type": "value"
+          }
+        ],
+        "date_7": [
+          {
+            "action": {
+              "query": {
+                "defaultParams": {
+                  "areaCode": "china",
+                  "entityType": 1,
+                  "pageViewTimeDimType": 2,
+                  "entityId": "612234088218",
+                  "startDate": "2021-12-06 00:00:00",
+                  "channelCode": "ali_tmall_plat"
+                },
+                "url": "https://api.dchain.tech/planbiz-sales-web/webapi/salesplan/daily/collaborating/scitem/getCountryDayInfo"
+              },
+              "type": "dynamicBalloon"
+            },
+            "shadow": true,
+            "style": {},
+            "type": "value",
+            "value": "73.42"
+          }
+        ],
+        "date_10": [
+          {
+            "shadow": true,
+            "style": {},
+            "type": "value"
+          }
+        ],
+        "date_9": [
+          {
+            "shadow": true,
+            "style": {},
+            "type": "value"
+          }
+        ],
+        "date_-4": [
+          {
+            "action": {
+              "query": {
+                "defaultParams": {
+                  "areaCode": "china",
+                  "entityType": 1,
+                  "pageViewTimeDimType": 2,
+                  "entityId": "612234088218",
+                  "startDate": "2021-09-20 00:00:00",
+                  "channelCode": "ali_tmall_plat"
+                },
+                "url": "https://api.dchain.tech/planbiz-sales-web/webapi/salesplan/daily/collaborating/scitem/getCountryDayInfo"
+              },
+              "type": "dynamicBalloon"
+            },
+            "shadow": true,
+            "style": {},
+            "type": "value",
+            "value": "232.84"
+          }
+        ],
+        "primaryKey": "612234088218-1-china-5"
+      },
+      {
+        "level": 0,
+        "date_0": [
+          {
+            "style": {
+              "textAlign": "right"
+            },
+            "type": "value",
+            "value": 182
+          }
+        ],
+        "date_-3": [
+          {
+            "style": {
+              "textAlign": "right"
+            },
+            "type": "value",
+            "value": 458
+          }
+        ],
+        "date_2": [
+          {
+            "style": {
+              "textAlign": "right"
+            },
+            "type": "value"
+          }
+        ],
+        "salesIndicator": [
+          {
+            "help": "",
+            "style": {
+              "textAlign": "left"
+            },
+            "type": "value",
+            "unit": "??????",
+            "value": "??????"
+          }
+        ],
+        "date_1": [
+          {
+            "style": {
+              "textAlign": "right"
+            },
+            "type": "value"
+          }
+        ],
+        "date_-2": [
+          {
+            "style": {
+              "textAlign": "right"
+            },
+            "type": "value",
+            "value": 484
+          }
+        ],
+        "date_4": [
+          {
+            "style": {
+              "textAlign": "right"
+            },
+            "type": "value"
+          }
+        ],
+        "date_-1": [
+          {
+            "style": {
+              "textAlign": "right"
+            },
+            "type": "value",
+            "value": 510
+          }
+        ],
+        "date_3": [
+          {
+            "style": {
+              "textAlign": "right"
+            },
+            "type": "value"
+          }
+        ],
+        "date_6": [
+          {
+            "style": {
+              "textAlign": "right"
+            },
+            "type": "value"
+          }
+        ],
+        "date_13": [
+          {
+            "style": {
+              "textAlign": "right"
+            },
+            "type": "value"
+          }
+        ],
+        "date_5": [
+          {
+            "style": {
+              "textAlign": "right"
+            },
+            "type": "value"
+          }
+        ],
+        "date_12": [
+          {
+            "style": {
+              "textAlign": "right"
+            },
+            "type": "value"
+          }
+        ],
+        "date_8": [
+          {
+            "style": {
+              "textAlign": "right"
+            },
+            "type": "value"
+          }
+        ],
+        "date_11": [
+          {
+            "style": {
+              "textAlign": "right"
+            },
+            "type": "value"
+          }
+        ],
+        "date_7": [
+          {
+            "style": {
+              "textAlign": "right"
+            },
+            "type": "value"
+          }
+        ],
+        "date_10": [
+          {
+            "style": {
+              "textAlign": "right"
+            },
+            "type": "value"
+          }
+        ],
+        "date_9": [
+          {
+            "style": {
+              "textAlign": "right"
+            },
+            "type": "value"
+          }
+        ],
+        "date_-4": [
+          {
+            "style": {
+              "textAlign": "right"
+            },
+            "type": "value",
+            "value": 458
+          }
+        ],
+        "primaryKey": "612234088218-1-china-5"
+      },
+      {
+        "level": 0,
+        "date_0": [
+          {
+            "shadow": true,
+            "style": {
+              "textAlign": "right"
+            },
+            "type": "value",
+            "value": "671"
+          }
+        ],
+        "date_-3": [
+          {
+            "shadow": true,
+            "style": {
+              "textAlign": "right"
+            },
+            "type": "value",
+            "value": "642"
+          }
+        ],
+        "date_2": [
+          {
+            "shadow": true,
+            "style": {
+              "textAlign": "right"
+            },
+            "type": "value",
+            "value": "692"
+          }
+        ],
+        "salesIndicator": [
+          {
+            "help": "",
+            "shadow": true,
+            "style": {
+              "textAlign": "left"
+            },
+            "type": "value",
+            "unit": "??????",
+            "value": "????????????"
+          }
+        ],
+        "date_1": [
+          {
+            "shadow": true,
+            "style": {
+              "textAlign": "right"
+            },
+            "type": "value",
+            "value": "475"
+          }
+        ],
+        "date_-2": [
+          {
+            "shadow": true,
+            "style": {
+              "textAlign": "right"
+            },
+            "type": "value",
+            "value": "741"
+          }
+        ],
+        "date_4": [
+          {
+            "shadow": true,
+            "style": {
+              "textAlign": "right"
+            },
+            "type": "value",
+            "value": "293"
+          }
+        ],
+        "date_-1": [
+          {
+            "shadow": true,
+            "style": {
+              "textAlign": "right"
+            },
+            "type": "value",
+            "value": "818"
+          }
+        ],
+        "date_3": [
+          {
+            "shadow": true,
+            "style": {
+              "textAlign": "right"
+            },
+            "type": "value",
+            "value": "797"
+          }
+        ],
+        "date_6": [
+          {
+            "shadow": true,
+            "style": {
+              "textAlign": "right"
+            },
+            "type": "value",
+            "value": "355"
+          }
+        ],
+        "date_13": [
+          {
+            "shadow": true,
+            "style": {
+              "textAlign": "right"
+            },
+            "type": "value"
+          }
+        ],
+        "date_5": [
+          {
+            "shadow": true,
+            "style": {
+              "textAlign": "right"
+            },
+            "type": "value",
+            "value": "322"
+          }
+        ],
+        "date_12": [
+          {
+            "shadow": true,
+            "style": {
+              "textAlign": "right"
+            },
+            "type": "value"
+          }
+        ],
+        "date_8": [
+          {
+            "shadow": true,
+            "style": {
+              "textAlign": "right"
+            },
+            "type": "value"
+          }
+        ],
+        "date_11": [
+          {
+            "shadow": true,
+            "style": {
+              "textAlign": "right"
+            },
+            "type": "value"
+          }
+        ],
+        "date_7": [
+          {
+            "shadow": true,
+            "style": {
+              "textAlign": "right"
+            },
+            "type": "value",
+            "value": "583"
+          }
+        ],
+        "date_10": [
+          {
+            "shadow": true,
+            "style": {
+              "textAlign": "right"
+            },
+            "type": "value"
+          }
+        ],
+        "date_9": [
+          {
+            "shadow": true,
+            "style": {
+              "textAlign": "right"
+            },
+            "type": "value"
+          }
+        ],
+        "date_-4": [
+          {
+            "shadow": true,
+            "style": {
+              "textAlign": "right"
+            },
+            "type": "value",
+            "value": "593"
+          }
+        ],
+        "primaryKey": "612234088218-1-china-5"
+      },
+      {
+        "level": 0,
+        "date_0": [
+          {
+            "style": {
+              "textAlign": "left"
+            },
+            "type": "activity",
+            "value": [
+              {
+                "children": [
+                  {
+                    "background": "#FDC4C4",
+                    "color": "#F41212",
+                    "name": "????????????-????????????????????????",
+                    "period": "10.20~11.30"
+                  }
+                ],
+                "level": "S+"
+              }
+            ]
+          }
+        ],
+        "date_-3": [
+          {
+            "style": {
+              "textAlign": "left"
+            },
+            "type": "activity"
+          }
+        ],
+        "date_2": [
+          {
+            "style": {
+              "textAlign": "left"
+            },
+            "type": "activity",
+            "value": [
+              {
+                "children": [
+                  {
+                    "background": "#FDC4C4",
+                    "color": "#F41212",
+                    "name": "????????????-????????????????????????",
+                    "period": "10.20~11.30"
+                  }
+                ],
+                "level": "S+"
+              }
+            ]
+          }
+        ],
+        "salesIndicator": [
+          {
+            "help": "???????????????????????????????????????",
+            "style": {
+              "textAlign": "left"
+            },
+            "type": "value",
+            "value": "????????????"
+          }
+        ],
+        "date_1": [
+          {
+            "style": {
+              "textAlign": "left"
+            },
+            "type": "activity",
+            "value": [
+              {
+                "children": [
+                  {
+                    "background": "#FDC4C4",
+                    "color": "#F41212",
+                    "name": "????????????-????????????????????????",
+                    "period": "10.20~11.30"
+                  },
+                  {
+                    "background": "#FDC4C4",
+                    "color": "#F41212",
+                    "name": "????????????20211020",
+                    "period": "10.25~10.31"
+                  }
+                ],
+                "level": "S+"
+              }
+            ]
+          }
+        ],
+        "date_-2": [
+          {
+            "style": {
+              "textAlign": "left"
+            },
+            "type": "activity"
+          }
+        ],
+        "date_4": [
+          {
+            "style": {
+              "textAlign": "left"
+            },
+            "type": "activity",
+            "value": [
+              {
+                "children": [
+                  {
+                    "background": "#FDC4C4",
+                    "color": "#F41212",
+                    "name": "????????????-????????????????????????",
+                    "period": "10.20~11.30"
+                  }
+                ],
+                "level": "S+"
+              }
+            ]
+          }
+        ],
+        "date_-1": [
+          {
+            "style": {
+              "textAlign": "left"
+            },
+            "type": "activity"
+          }
+        ],
+        "date_3": [
+          {
+            "style": {
+              "textAlign": "left"
+            },
+            "type": "activity",
+            "value": [
+              {
+                "children": [
+                  {
+                    "background": "#FDC4C4",
+                    "color": "#F41212",
+                    "name": "????????????-????????????????????????",
+                    "period": "10.20~11.30"
+                  }
+                ],
+                "level": "S+"
+              }
+            ]
+          }
+        ],
+        "date_6": [
+          {
+            "style": {
+              "textAlign": "left"
+            },
+            "type": "activity",
+            "value": [
+              {
+                "children": [
+                  {
+                    "background": "#FDC4C4",
+                    "color": "#F41212",
+                    "name": "????????????-????????????????????????",
+                    "period": "10.20~11.30"
+                  }
+                ],
+                "level": "S+"
+              }
+            ]
+          }
+        ],
+        "date_13": [
+          {
+            "style": {
+              "textAlign": "left"
+            },
+            "type": "activity"
+          }
+        ],
+        "date_5": [
+          {
+            "style": {
+              "textAlign": "left"
+            },
+            "type": "activity",
+            "value": [
+              {
+                "children": [
+                  {
+                    "background": "#FDC4C4",
+                    "color": "#F41212",
+                    "name": "????????????-????????????????????????",
+                    "period": "10.20~11.30"
+                  }
+                ],
+                "level": "S+"
+              }
+            ]
+          }
+        ],
+        "date_12": [
+          {
+            "style": {
+              "textAlign": "left"
+            },
+            "type": "activity"
+          }
+        ],
+        "date_8": [
+          {
+            "style": {
+              "textAlign": "left"
+            },
+            "type": "activity"
+          }
+        ],
+        "date_11": [
+          {
+            "style": {
+              "textAlign": "left"
+            },
+            "type": "activity"
+          }
+        ],
+        "date_7": [
+          {
+            "style": {
+              "textAlign": "left"
+            },
+            "type": "activity"
+          }
+        ],
+        "date_10": [
+          {
+            "style": {
+              "textAlign": "left"
+            },
+            "type": "activity"
+          }
+        ],
+        "date_9": [
+          {
+            "style": {
+              "textAlign": "left"
+            },
+            "type": "activity"
+          }
+        ],
+        "date_-4": [
+          {
+            "style": {
+              "textAlign": "left"
+            },
+            "type": "activity"
+          }
+        ],
+        "primaryKey": "612234088218-1-china-5"
+      },
+      {
+        "level": 0,
+        "date_0": [
+          {}
+        ],
+        "date_-3": [
+          {}
+        ],
+        "date_2": [
+          {}
+        ],
+        "salesIndicator": [
+          {
+            "help": "",
+            "style": {
+              "textAlign": "left"
+            },
+            "type": "value",
+            "value": "??????????????????"
+          }
+        ],
+        "date_1": [
+          {}
+        ],
+        "date_-2": [
+          {}
+        ],
+        "date_4": [
+          {}
+        ],
+        "date_-1": [
+          {}
+        ],
+        "date_3": [
+          {}
+        ],
+        "date_6": [
+          {}
+        ],
+        "date_13": [
+          {}
+        ],
+        "date_5": [
+          {}
+        ],
+        "date_12": [
+          {}
+        ],
+        "date_8": [
+          {}
+        ],
+        "date_11": [
+          {}
+        ],
+        "date_7": [
+          {}
+        ],
+        "date_10": [
+          {}
+        ],
+        "date_9": [
+          {}
+        ],
+        "date_-4": [
+          {}
+        ],
+        "primaryKey": "612234088218-1-china-5"
+      },
+      {
+        "level": 0,
+        "date_0": [
+          {}
+        ],
+        "date_-3": [
+          {}
+        ],
+        "date_2": [
+          {}
+        ],
+        "salesIndicator": [
+          {
+            "help": "",
+            "style": {
+              "textAlign": "left"
+            },
+            "type": "value",
+            "value": "??????????????????"
+          }
+        ],
+        "date_1": [
+          {}
+        ],
+        "date_-2": [
+          {}
+        ],
+        "date_4": [
+          {}
+        ],
+        "date_-1": [
+          {}
+        ],
+        "date_3": [
+          {}
+        ],
+        "date_6": [
+          {}
+        ],
+        "date_13": [
+          {}
+        ],
+        "date_5": [
+          {}
+        ],
+        "date_12": [
+          {}
+        ],
+        "date_8": [
+          {}
+        ],
+        "date_11": [
+          {}
+        ],
+        "date_7": [
+          {}
+        ],
+        "date_10": [
+          {}
+        ],
+        "date_9": [
+          {}
+        ],
+        "date_-4": [
+          {}
+        ],
+        "primaryKey": "612234088218-1-china-5"
+      },
+      {
+        "level": 0,
+        "date_0": [
+          {
+            "shadow": true,
+            "style": {
+              "textAlign": "right",
+              "font-weight": "bold"
+            },
+            "type": "value",
+            "value": "2.69%"
+          }
+        ],
+        "date_-3": [
+          {
+            "shadow": true,
+            "style": {
+              "textAlign": "right",
+              "font-weight": "bold"
+            },
+            "type": "value",
+            "value": "49.36%"
+          }
+        ],
+        "date_2": [
+          {
+            "shadow": true,
+            "style": {
+              "textAlign": "right",
+              "font-weight": "bold"
+            },
+            "type": "value",
+            "value": "171.89%"
+          }
+        ],
+        "salesIndicator": [
+          {
+            "help": "",
+            "shadow": true,
+            "style": {
+              "textAlign": "left"
+            },
+            "type": "value",
+            "value": "???????????????"
+          }
+        ],
+        "date_1": [
+          {
+            "shadow": true,
+            "style": {
+              "textAlign": "right",
+              "font-weight": "bold"
+            },
+            "type": "value",
+            "value": "-15.10%"
+          }
+        ],
+        "date_-2": [
+          {
+            "shadow": true,
+            "style": {
+              "textAlign": "right",
+              "font-weight": "bold"
+            },
+            "type": "value",
+            "value": "21.25%"
+          }
+        ],
+        "date_4": [
+          {
+            "shadow": true,
+            "style": {
+              "textAlign": "right",
+              "font-weight": "bold"
+            },
+            "type": "value",
+            "value": "1.58%"
+          }
+        ],
+        "date_-1": [
+          {
+            "shadow": true,
+            "style": {
+              "textAlign": "right",
+              "font-weight": "bold"
+            },
+            "type": "value",
+            "value": "8.72%"
+          }
+        ],
+        "date_3": [
+          {
+            "shadow": true,
+            "style": {
+              "textAlign": "right",
+              "font-weight": "bold"
+            },
+            "type": "value",
+            "value": "213.22%"
+          }
+        ],
+        "date_6": [
+          {
+            "shadow": true,
+            "style": {
+              "textAlign": "right",
+              "font-weight": "bold"
+            },
+            "type": "value",
+            "value": "1.24%"
+          }
+        ],
+        "date_13": [
+          {
+            "shadow": true,
+            "style": {
+              "textAlign": "right",
+              "font-weight": "bold"
+            },
+            "type": "value"
+          }
+        ],
+        "date_5": [
+          {
+            "shadow": true,
+            "style": {
+              "textAlign": "right",
+              "font-weight": "bold"
+            },
+            "type": "value",
+            "value": "1.76%"
+          }
+        ],
+        "date_12": [
+          {
+            "shadow": true,
+            "style": {
+              "textAlign": "right",
+              "font-weight": "bold"
+            },
+            "type": "value"
+          }
+        ],
+        "date_8": [
+          {
+            "shadow": true,
+            "style": {
+              "textAlign": "right",
+              "font-weight": "bold"
+            },
+            "type": "value"
+          }
+        ],
+        "date_11": [
+          {
+            "shadow": true,
+            "style": {
+              "textAlign": "right",
+              "font-weight": "bold"
+            },
+            "type": "value"
+          }
+        ],
+        "date_7": [
+          {
+            "shadow": true,
+            "style": {
+              "textAlign": "right",
+              "font-weight": "bold"
+            },
+            "type": "value",
+            "value": "65.83%"
+          }
+        ],
+        "date_10": [
+          {
+            "shadow": true,
+            "style": {
+              "textAlign": "right",
+              "font-weight": "bold"
+            },
+            "type": "value"
+          }
+        ],
+        "date_9": [
+          {
+            "shadow": true,
+            "style": {
+              "textAlign": "right",
+              "font-weight": "bold"
+            },
+            "type": "value"
+          }
+        ],
+        "date_-4": [
+          {
+            "shadow": true,
+            "style": {
+              "textAlign": "right",
+              "font-weight": "bold"
+            },
+            "type": "value",
+            "value": "65.50%"
+          }
+        ],
+        "primaryKey": "612234088218-1-china-5"
+      },
+      {
+        "level": 0,
+        "date_0": [
+          {
+            "shadow": true,
+            "style": {
+              "textAlign": "right",
+              "font-weight": "bold"
+            },
+            "type": "value",
+            "value": "-"
+          }
+        ],
+        "date_-3": [
+          {
+            "shadow": true,
+            "style": {
+              "textAlign": "right",
+              "font-weight": "bold"
+            },
+            "type": "value",
+            "value": "45.65%"
+          }
+        ],
+        "date_2": [
+          {
+            "shadow": true,
+            "style": {
+              "textAlign": "right",
+              "font-weight": "bold"
+            },
+            "type": "value",
+            "value": "-"
+          }
+        ],
+        "salesIndicator": [
+          {
+            "help": "",
+            "shadow": true,
+            "style": {
+              "textAlign": "left"
+            },
+            "type": "value",
+            "value": "???????????????"
+          }
+        ],
+        "date_1": [
+          {
+            "shadow": true,
+            "style": {
+              "textAlign": "right",
+              "font-weight": "bold"
+            },
+            "type": "value",
+            "value": "-"
+          }
+        ],
+        "date_-2": [
+          {
+            "shadow": true,
+            "style": {
+              "textAlign": "right",
+              "font-weight": "bold"
+            },
+            "type": "value",
+            "value": "61.89%"
+          }
+        ],
+        "date_4": [
+          {
+            "shadow": true,
+            "style": {
+              "textAlign": "right",
+              "font-weight": "bold"
+            },
+            "type": "value",
+            "value": "-"
+          }
+        ],
+        "date_-1": [
+          {
+            "shadow": true,
+            "style": {
+              "textAlign": "right",
+              "font-weight": "bold"
+            },
+            "type": "value",
+            "value": "-"
+          }
+        ],
+        "date_3": [
+          {
+            "shadow": true,
+            "style": {
+              "textAlign": "right",
+              "font-weight": "bold"
+            },
+            "type": "value",
+            "value": "-"
+          }
+        ],
+        "date_6": [
+          {
+            "shadow": true,
+            "style": {
+              "textAlign": "right",
+              "font-weight": "bold"
+            },
+            "type": "value",
+            "value": "-"
+          }
+        ],
+        "date_13": [
+          {
+            "shadow": true,
+            "style": {
+              "textAlign": "right",
+              "font-weight": "bold"
+            },
+            "type": "value"
+          }
+        ],
+        "date_5": [
+          {
+            "shadow": true,
+            "style": {
+              "textAlign": "right",
+              "font-weight": "bold"
+            },
+            "type": "value",
+            "value": "-"
+          }
+        ],
+        "date_12": [
+          {
+            "shadow": true,
+            "style": {
+              "textAlign": "right",
+              "font-weight": "bold"
+            },
+            "type": "value"
+          }
+        ],
+        "date_8": [
+          {
+            "shadow": true,
+            "style": {
+              "textAlign": "right",
+              "font-weight": "bold"
+            },
+            "type": "value"
+          }
+        ],
+        "date_11": [
+          {
+            "shadow": true,
+            "style": {
+              "textAlign": "right",
+              "font-weight": "bold"
+            },
+            "type": "value"
+          }
+        ],
+        "date_7": [
+          {
+            "shadow": true,
+            "style": {
+              "textAlign": "right",
+              "font-weight": "bold"
+            },
+            "type": "value",
+            "value": "-"
+          }
+        ],
+        "date_10": [
+          {
+            "shadow": true,
+            "style": {
+              "textAlign": "right",
+              "font-weight": "bold"
+            },
+            "type": "value"
+          }
+        ],
+        "date_9": [
+          {
+            "shadow": true,
+            "style": {
+              "textAlign": "right",
+              "font-weight": "bold"
+            },
+            "type": "value"
+          }
+        ],
+        "date_-4": [
+          {
+            "shadow": true,
+            "style": {
+              "textAlign": "right",
+              "font-weight": "bold"
+            },
+            "type": "value",
+            "value": "80.63%"
+          }
+        ],
+        "primaryKey": "612234088218-1-china-5"
+      },
+      {
+        "level": 0,
+        "date_0": [
+          {
+            "shadow": true,
+            "style": {
+              "textAlign": "right",
+              "font-weight": "bold"
+            },
+            "type": "value",
+            "value": "-"
+          }
+        ],
+        "date_-3": [
+          {
+            "shadow": true,
+            "style": {
+              "textAlign": "right",
+              "font-weight": "bold"
+            },
+            "type": "value",
+            "value": "45.65%"
+          }
+        ],
+        "date_2": [
+          {
+            "shadow": true,
+            "style": {
+              "textAlign": "right",
+              "font-weight": "bold"
+            },
+            "type": "value",
+            "value": "-"
+          }
+        ],
+        "salesIndicator": [
+          {
+            "help": "1-MAPE(MAPE: ABS(?????????-?????????)/?????????)",
+            "shadow": true,
+            "style": {
+              "textAlign": "left"
+            },
+            "type": "value",
+            "value": "???????????????"
+          }
+        ],
+        "date_1": [
+          {
+            "shadow": true,
+            "style": {
+              "textAlign": "right",
+              "font-weight": "bold"
+            },
+            "type": "value",
+            "value": "-"
+          }
+        ],
+        "date_-2": [
+          {
+            "shadow": true,
+            "style": {
+              "textAlign": "right",
+              "font-weight": "bold"
+            },
+            "type": "value",
+            "value": "61.89%"
+          }
+        ],
+        "date_4": [
+          {
+            "shadow": true,
+            "style": {
+              "textAlign": "right",
+              "font-weight": "bold"
+            },
+            "type": "value",
+            "value": "-"
+          }
+        ],
+        "date_-1": [
+          {
+            "shadow": true,
+            "style": {
+              "textAlign": "right",
+              "font-weight": "bold"
+            },
+            "type": "value",
+            "value": "-"
+          }
+        ],
+        "date_3": [
+          {
+            "shadow": true,
+            "style": {
+              "textAlign": "right",
+              "font-weight": "bold"
+            },
+            "type": "value",
+            "value": "-"
+          }
+        ],
+        "date_6": [
+          {
+            "shadow": true,
+            "style": {
+              "textAlign": "right",
+              "font-weight": "bold"
+            },
+            "type": "value",
+            "value": "-"
+          }
+        ],
+        "date_13": [
+          {
+            "shadow": true,
+            "style": {
+              "textAlign": "right",
+              "font-weight": "bold"
+            },
+            "type": "value"
+          }
+        ],
+        "date_5": [
+          {
+            "shadow": true,
+            "style": {
+              "textAlign": "right",
+              "font-weight": "bold"
+            },
+            "type": "value",
+            "value": "-"
+          }
+        ],
+        "date_12": [
+          {
+            "shadow": true,
+            "style": {
+              "textAlign": "right",
+              "font-weight": "bold"
+            },
+            "type": "value"
+          }
+        ],
+        "childrenFlag": "612234088218-1-china-5_children_flag",
+        "date_8": [
+          {
+            "shadow": true,
+            "style": {
+              "textAlign": "right",
+              "font-weight": "bold"
+            },
+            "type": "value"
+          }
+        ],
+        "date_11": [
+          {
+            "shadow": true,
+            "style": {
+              "textAlign": "right",
+              "font-weight": "bold"
+            },
+            "type": "value"
+          }
+        ],
+        "date_7": [
+          {
+            "shadow": true,
+            "style": {
+              "textAlign": "right",
+              "font-weight": "bold"
+            },
+            "type": "value",
+            "value": "-"
+          }
+        ],
+        "date_10": [
+          {
+            "shadow": true,
+            "style": {
+              "textAlign": "right",
+              "font-weight": "bold"
+            },
+            "type": "value"
+          }
+        ],
+        "date_9": [
+          {
+            "shadow": true,
+            "style": {
+              "textAlign": "right",
+              "font-weight": "bold"
+            },
+            "type": "value"
+          }
+        ],
+        "date_-4": [
+          {
+            "shadow": true,
+            "style": {
+              "textAlign": "right",
+              "font-weight": "bold"
+            },
+            "type": "value",
+            "value": "80.63%"
+          }
+        ],
+        "primaryKey": "612234088218-1-china-5"
+      }
+    ],
+    "expendedRowKeys": [],
+    "filters": [
+      {
+        "name": "filter",
+        "type": "TableFilter",
+        "value": [
+          {
+            "total": 1,
+            "label": "??????",
+            "value": "total"
+          },
+          {
+            "total": 1,
+            "label": "??????",
+            "value": "A"
+          },
+          {
+            "total": 0,
+            "label": "?????????",
+            "value": "B"
+          },
+          {
+            "total": 0,
+            "label": "?????????",
+            "value": "C"
+          },
+          {
+            "total": 0,
+            "label": "????????????",
+            "value": "D"
+          },
+          {
+            "total": 0,
+            "label": "??????",
+            "value": "U"
+          },
+          {
+            "total": 0,
+            "label": "??????",
+            "value": "other"
+          }
+        ]
+      },
+      {
+        "name": "lifeCycle",
+        "style": {},
+        "title": "????????????",
+        "type": "Select",
+        "value": [
+          {
+            "label": "???????????????",
+            "value": 1
+          },
+          {
+            "label": "?????????",
+            "value": 2
+          },
+          {
+            "label": "?????????",
+            "value": 3
+          }
+        ],
+        "props": {
+          "hasClear": true
+        }
+      },
+      {
+        "name": "filterQueryTypeAndId",
+        "searchUrl": "salesplan/collaborating/daily/scitem/doGetMainPage",
+        "style": {},
+        "title": "????????????",
+        "type": "SelectSearch",
+        "value": [
+          {
+            "label": "69???",
+            "value": "sixNineCode"
+          },
+          {
+            "label": "??????ID",
+            "value": "scItemId"
+          }
+        ],
+        "props": {
+          "hasClear": true
+        }
+      }
+    ],
+    "structure": {
+      "dynamicColumns": [
+        {
+          "align": "left",
+          "dataIndex": "commodityInfo",
+          "lock": "left",
+          "title": "????????????",
+          "width": 300
+        },
+        {
+          "dataIndex": "salesIndicator",
+          "lock": "left",
+          "title": "????????????",
+          "width": 150
+        },
+        {
+          "align": "right",
+          "dataIndex": "date_-4",
+          "sortable": false,
+          "title": "W-4\n09.20~09.26",
+          "width": 100
+        },
+        {
+          "align": "right",
+          "dataIndex": "date_-3",
+          "sortable": false,
+          "title": "W-3\n09.27~10.03",
+          "width": 100
+        },
+        {
+          "align": "right",
+          "dataIndex": "date_-2",
+          "sortable": false,
+          "title": "W-2\n10.04~10.10",
+          "width": 100
+        },
+        {
+          "align": "right",
+          "dataIndex": "date_-1",
+          "sortable": false,
+          "title": "W-1\n10.11~10.17",
+          "width": 100
+        },
+        {
+          "align": "right",
+          "dataIndex": "date_0",
+          "sortable": false,
+          "title": "W0\n10.18~10.24",
+          "width": 100
+        },
+        {
+          "align": "right",
+          "dataIndex": "date_1",
+          "sortable": false,
+          "title": "W+1\n10.25~10.31",
+          "width": 100
+        },
+        {
+          "align": "right",
+          "dataIndex": "date_2",
+          "sortable": false,
+          "title": "W+2\n11.01~11.07",
+          "width": 100
+        },
+        {
+          "align": "right",
+          "dataIndex": "date_3",
+          "sortable": false,
+          "title": "W+3\n11.08~11.14",
+          "width": 100
+        },
+        {
+          "align": "right",
+          "dataIndex": "date_4",
+          "sortable": false,
+          "title": "W+4\n11.15~11.21",
+          "width": 100
+        },
+        {
+          "align": "right",
+          "dataIndex": "date_5",
+          "sortable": false,
+          "title": "W+5\n11.22~11.28",
+          "width": 100
+        },
+        {
+          "align": "right",
+          "dataIndex": "date_6",
+          "sortable": false,
+          "title": "W+6\n11.29~12.05",
+          "width": 100
+        },
+        {
+          "align": "right",
+          "dataIndex": "date_7",
+          "sortable": false,
+          "title": "W+7\n12.06~12.12",
+          "width": 100
+        },
+        {
+          "align": "right",
+          "dataIndex": "date_8",
+          "sortable": false,
+          "title": "W+8\n12.13~12.19",
+          "width": 100
+        },
+        {
+          "align": "right",
+          "dataIndex": "date_9",
+          "sortable": false,
+          "title": "W+9\n12.20~12.26",
+          "width": 100
+        },
+        {
+          "align": "right",
+          "dataIndex": "date_10",
+          "sortable": false,
+          "title": "W+10\n12.27~01.02",
+          "width": 100
+        },
+        {
+          "align": "right",
+          "dataIndex": "date_11",
+          "sortable": false,
+          "title": "W+11\n01.03~01.09",
+          "width": 100
+        },
+        {
+          "align": "right",
+          "dataIndex": "date_12",
+          "sortable": false,
+          "title": "W+12\n01.10~01.16",
+          "width": 100
+        },
+        {
+          "align": "right",
+          "dataIndex": "date_13",
+          "sortable": false,
+          "title": "W+13\n01.17~01.23",
+          "width": 100
+        },
+        {
+          "dataIndex": "operate",
+          "lock": "right",
+          "title": "??????",
+          "width": 125
+        }
+      ],
+      "mergeColumnIndex": [
+        0,
+        1,
+        21
+      ],
+      "primaryKey": "primaryKey"
+    }
+  },
+  "pageIndex": 1,
+  "pageSize": 5,
+  "success": true,
+  "total": 1
+}

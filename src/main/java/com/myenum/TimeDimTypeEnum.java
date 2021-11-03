@@ -1,8 +1,6 @@
-package com.myEnum;
+package com.myenum;
 
 
-
-import org.mockito.internal.util.StringUtil;
 
 import java.util.Objects;
 

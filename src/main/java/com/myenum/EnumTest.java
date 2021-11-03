@@ -1,4 +1,4 @@
-package com.myEnum;
+package com.myenum;
 
 /**
  * @author: zhiyang

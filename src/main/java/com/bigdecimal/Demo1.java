@@ -18,7 +18,7 @@ public class Demo1 {
 //        BigDecimal value = fillZeroAndMicrometer(bigDecimal);
 //        System.out.println(value.toString());
 
-        System.out.println(fillZeroAndMicrometer(5693));
+        System.out.println(fillZeroAndMicrometer(-100000.22222222));
 
 
     }
@@ -37,18 +37,7 @@ public class Demo1 {
 
         DecimalFormat df;
 
-        if(num.contains(DOT_SEPARATOR)) {
-            final int i = num.length() - num.indexOf(DOT_SEPARATOR) - 1;
-            if(i == 0) {
-                df = new DecimalFormat("###,##0.");
-            } else if(i == 1) {
-                df = new DecimalFormat("###,##0.00");
-            } else {
-                df = new DecimalFormat("###,##0.00");
-            }
-        } else {
-            df = new DecimalFormat("###,##0");
-        }
+        df = new DecimalFormat("###,##0.00");
 
         return df.format(forecastQty);
     }

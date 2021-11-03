@@ -15,8 +15,8 @@ import java.io.IOException;
 
 public class Demo2 {
     public static void main(String[] args) throws IOException {
-        String s = FileUtils.readFileToString(new File("user.json"));
-        User user = JSON.parseObject(s, User.class);
+        String s = FileUtils.readFileToString(new File("result.json"));
+        PageResultVO user = JSON.parseObject(s,PageResultVO.class);
         System.out.println(user);
     }
 }
